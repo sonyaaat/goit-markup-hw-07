@@ -637,28 +637,28 @@ header {
   max-width: 100%;
   width: auto;
 }
-.team-svg__list {
+.team-soc {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.team-svg {
+.team-soc__svg {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-svg-link:hover .team-svg {
+.team-soc__link:hover .team-soc__svg {
   fill: white;
 }
-.team-svg__item {
+.team-soc__item {
   /* display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px; */
 }
-.team-svg-link {
+.team-soc__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -667,18 +667,18 @@ header {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-svg-link:hover,
-.team-svg-link:focus {
+.team-soc__link:hover,
+.team-soc__link:focus {
   background-color: var(--accent-text);
   border-radius: 50%;
 }
-.team-svg-link:focus .team-svg {
+.team-soc__link:focus .team-soc__svg {
   fill: white;
 }
-.team-svg__item {
+.team-soc__item {
   margin-right: 10px;
 }
-.team-svg__item:last-child {
+.team-soc__item:last-child {
   margin-right: 0px;
 }
 
@@ -801,7 +801,7 @@ footer {
   align-items: center;
   vertical-align: middle;
 }
-.icons {
+.footer-soc {
   display: flex;
 }
 .left-part {
@@ -810,7 +810,7 @@ footer {
 .center-part {
   align-items: center;
 }
-.icons__link {
+.footer-soc__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -820,24 +820,24 @@ footer {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons__svg {
+.footer-soc__svg {
   width: 20px;
   height: 20px;
   fill: white;
 }
 
-.icons__link:hover,
-.icons__link:focus {
+.footer-soc__link:hover,
+.ifooter-soc__link:focus {
   background-color: var(--accent-text);
   border-radius: 50%;
 }
-.icons__link:focus .icons__svg {
+.footer-soc__link:focus .footer-soc__svg {
   fill: white;
 }
-.icons__item {
+.footer-soc__item {
   margin-right: 10px;
 }
-.icons__item:last-child {
+.footer-soc__item:last-child {
   margin-right: 0px;
 }
 .right-part {
