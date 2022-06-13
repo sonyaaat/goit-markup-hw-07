@@ -87,69 +87,7 @@
           </button>
         </div>
       </section>
-      <!-- MODAL -->
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button class="backdrop__button" type="button" data-modal-close>
-            <svg class="backdrop__close">
-              <use href="./images/sprite.svg#cross"></use>
-            </svg>
-          </button>
 
-          <form class="form">
-            <b class="form__header">Оставьте свои данные, мы вам перезвоним</b>
-            <div class="form__field">
-              <label for="name" class="form__label">Имя</label>
-              <input name="name" type="text" id="name" class="form__input" />
-              <svg class="form__icon form__icon--3">
-                <use href="./images/sprite.svg#form-3"></use>
-              </svg>
-            </div>
-
-            <div class="form__field">
-              <label for="tel" class="form__label">Телефон</label>
-              <input name="tel" type="tel" id="tel" class="form__input" />
-              <svg class="form__icon form__icon--1">
-                <use href="./images/sprite.svg#form-1"></use>
-              </svg>
-            </div>
-
-            <div class="form__field">
-              <label for="email" class="form__label">Почта</label>
-              <input name="email" type="email" id="email" class="form__input" />
-              <svg class="form__icon form__icon--2">
-                <use href="./images/sprite.svg#form-2"></use>
-              </svg>
-            </div>
-
-            <div class="form__field form__field--big">
-              <label for="comments" class="comments">Комментарий</label>
-              <textarea
-                name="comments"
-                class="comments__input"
-                id="comments"
-                placeholder="Введите текст"
-              ></textarea>
-            </div>
-
-            <label for="policy" class="footer__policy">
-              <input
-                type="checkbox"
-                name="policy"
-                id="policy"
-                class="policy-checkbox"
-              />
-              <span class="policy-icon"></span>
-              Соглашаюсь с рассылкой и принимаю
-              <a href="" class="footer__policy--accent"
-                >Условия договора</a
-              ></label
-            >
-
-            <button type="submit" class="modal__button">Отправить</button>
-          </form>
-        </div>
-      </div>
       <!--Текстові блоки -->
       <section class="features section">
         <div class="container">
@@ -559,6 +497,69 @@
         </div>
       </div>
     </footer>
+    <!-- MODAL -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="backdrop__button" type="button" data-modal-close>
+          <svg class="backdrop__close">
+            <use href="./images/sprite.svg#cross"></use>
+          </svg>
+        </button>
+
+        <form class="form">
+          <b class="form__header">Оставьте свои данные, мы вам перезвоним</b>
+          <div class="form__field">
+            <label for="name" class="form__label">Имя</label>
+            <input name="name" type="text" id="name" class="form__input" />
+            <svg class="form__icon form__icon--3">
+              <use href="./images/sprite.svg#form-3"></use>
+            </svg>
+          </div>
+
+          <div class="form__field">
+            <label for="tel" class="form__label">Телефон</label>
+            <input name="tel" type="tel" id="tel" class="form__input" />
+            <svg class="form__icon form__icon--1">
+              <use href="./images/sprite.svg#form-1"></use>
+            </svg>
+          </div>
+
+          <div class="form__field">
+            <label for="email" class="form__label">Почта</label>
+            <input name="email" type="email" id="email" class="form__input" />
+            <svg class="form__icon form__icon--2">
+              <use href="./images/sprite.svg#form-2"></use>
+            </svg>
+          </div>
+
+          <div class="form__field form__field--big">
+            <label for="comments" class="comments">Комментарий</label>
+            <textarea
+              name="comments"
+              class="comments__input"
+              id="comments"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+
+          <label for="policy" class="footer__policy">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="policy-checkbox"
+            />
+            <span class="policy-icon"></span>
+            Соглашаюсь с рассылкой и принимаю
+            <a href="" class="footer__policy--accent"
+              >Условия договора</a
+            ></label
+          >
+
+          <button type="submit" class="modal__button">Отправить</button>
+        </form>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
